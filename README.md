@@ -1,6 +1,6 @@
 # weather-app
 Javascript Test Assignment(React)
 
-Setup ##########
+Setup
 1. npm install
 1. npm start
