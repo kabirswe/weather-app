@@ -1,0 +1,14 @@
+.main-navbar {
+    color: green;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9eccfe;
+    a {
+        text-decoration: none;
+    }
+    .text-input {
+        margin: 0 20px;
+    }
+}

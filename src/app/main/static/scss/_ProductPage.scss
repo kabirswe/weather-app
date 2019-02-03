@@ -1,0 +1,10 @@
+.product-list-page {
+    display: flex;
+    flex-direction: row;
+    .left-filter-block {
+        width: 200px;
+    }
+    .right-product-block {
+        width: calc(100% - 200px);        
+    }
+}
