@@ -14,8 +14,8 @@ export class MainRoute extends React.Component {
         return (
             <Switch>
                 {/* main */}
-                <Route exact path="/home/" component={HomePage} />
-                <Route exact path="/search/:id" component={SearchPage} />
+                <Route exact path="/" component={HomePage} />
+                <Route path="/search/:id" component={SearchPage} />
                 <Route path="/details/:id" component={DetailsPage} />
             </Switch>
         );

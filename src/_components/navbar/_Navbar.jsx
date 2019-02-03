@@ -36,15 +36,13 @@ export class Navbar extends React.Component {
                     name="search"
                 />
                 {/* End input */}
-                <Link to="/search/">
-                    <Button variant="contained" color="secondary">
-                        <Link
-                            to={`/search/${this.state.inputVal}/`}
-                        >
-                            Search
-                        </Link>
-                    </Button>
-                </Link>
+                <Button variant="contained" color="secondary">
+                    <Link
+                        to={`/search/${this.state.inputVal}/`}
+                    >
+                        Search
+                    </Link>
+                </Button>
             </div>
         );
     }
